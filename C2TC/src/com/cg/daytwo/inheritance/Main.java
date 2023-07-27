@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Schild c = new Schild();
+		c2 c = new c2();
 		
 	}
 
