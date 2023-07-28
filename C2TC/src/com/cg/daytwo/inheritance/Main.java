@@ -4,7 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		c2 c = new c2();
+	  c2 s = new c2();
+	  s.first();
+	  s.second();
 		
 	}
 

@@ -1,7 +1,7 @@
 package com.cg.daytwo.inheritance;
 
 public class Single {
-             Single()
+       public  void first ()
              {
             	 System.out.println("This is parent of single inheritance");
              }
@@ -9,8 +9,9 @@ public class Single {
 }
 class c2 extends Single
 {
-	c2()
+       public  void  second()
 	{
 		System.out.println("Child class");
 	}
+         
 }
