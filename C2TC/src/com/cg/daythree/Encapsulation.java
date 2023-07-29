@@ -1,17 +1,10 @@
 package com.cg.daythree;
-
 public class Encapsulation {
 
 	private String name;
 	private int id;
 	private long phone;
-
-	public Encapsulation(String name, int id, long phone) {
-		super();
-		this.name = name;
-		this.id = id;
-		this.phone = phone;
-	}
+	
 	public String getName() {
 		return name;
 	}
@@ -30,10 +23,10 @@ public class Encapsulation {
 	public void setPhone(long phone) {
 		this.phone = phone;
 	}
-//	@Override
-//	public String toString() {
-//		return "Student [Stuname=" + name + ", Sid=" + id + ", Sphone=" + phone + "]";
-//	}
+	@Override
+	public String toString() {
+		return "S_name=" + name + "\nS_id=" + id + "\nS_phone=" +phone + "\n";
+	}
 	
 	
 	

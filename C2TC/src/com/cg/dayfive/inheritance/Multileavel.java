@@ -1,4 +1,5 @@
-package com.cg.daytwo.inheritance;
+package com.cg.dayfive.inheritance;
+
 // Multiple inheritance
 public class Multileavel {
 	 Multileavel()
@@ -14,7 +15,7 @@ public class Multileavel {
 		 System.out.println("child 1");
 	 }
  }
- class Schild extends Child
+ class Schild extends C1
 {
 	 Schild()
 	 { 

@@ -1,5 +1,5 @@
 // All the access specifiers works within the class
-package com.cg.daytwo;
+package com.cg.dayfour;
 public class AccessSpecify {
           int a=20;
 	 public int b=30;

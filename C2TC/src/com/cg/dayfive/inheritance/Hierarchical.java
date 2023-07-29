@@ -1,4 +1,4 @@
-package com.cg.daytwo.inheritance;
+package com.cg.dayfive.inheritance;
 
 public class Hierarchical {
 	Hierarchical()

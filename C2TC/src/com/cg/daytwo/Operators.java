@@ -1,5 +1,5 @@
 // use of arithmetic(%), assignment(=),relational(==,<) operators
-package com.cg.dayone;
+package com.cg.daytwo;
 import java.util.*;
 public class Operators {
 	  public static void main(String[]args)
@@ -9,7 +9,7 @@ public class Operators {
 		 System.out.print("enter the value:");
 		 int n = sc.nextInt();
 		 int flag=0;
-		 for(int i=2;i<n;i++)
+		 for(int i=2;i<=n/2;i++)
 		 {
 			 if(n%i==0)
 			 {
